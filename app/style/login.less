@@ -1,0 +1,113 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 700px;
+  min-width: 1100px;
+  background-color: #E6F5FF;
+  background-image: url('../../app/assets/image/common/bg_login_page_lt.png'),
+    url('../../app/assets/image/common/bg_login_page_lb.png'),
+    url('../../app/assets/image/common/bg_login_page_rt.png'),
+    url('../../app/assets/image/common/bg_login_page_rb.png');
+  background-position: left top, left bottom, right top, right bottom;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 354px, 252px, 130px, 300px;
+
+  .login-form {
+    height: 623px;
+    width: 1059px;
+    padding-left: 530px;
+    border-radius: 30px;
+    background: #fff url('../../app/assets/image/common/bg_login_form.png') center left no-repeat;
+    background-size: contain;
+
+    .input-form {
+      padding: 120px 70px;
+
+      .l-title {
+        position: relative;
+        margin-bottom: 30px;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+        padding-left: 15px;
+
+        &::before {
+          position: absolute;
+          left: 0;
+          top: 6px;
+          height: 18px;
+          border: 2px solid #1890FF;
+          content: '';
+        }
+      }
+
+      .ant-input-affix-wrapper {
+        padding: 11px;
+
+        .ant-input-prefix {
+          position: relative;
+          margin-right: 15px;
+          font-size: 18px;
+
+          &::after {
+            position: absolute;
+            right: -8px;
+            top: 7px;
+            height: 14px;
+            border-left: 1px solid #979797;
+            content: '';
+          }
+        }
+      }
+
+      .yzm-line {
+        margin-bottom: 60px;
+
+        .ant-form-item-control-input-content {
+          display: flex;
+        }
+
+        .yzm {
+          position: relative;
+          flex: 125px;
+          width: 125px;
+          display: flex;
+          height: 50px;
+          margin-left: 10px;
+          cursor: pointer;
+          border: 1px solid #DADBDD;
+          border-radius: 2px;
+
+          img {
+            margin: auto;
+            width: 100px;
+            height: 40px;
+          }
+
+          a {
+            position: absolute;
+            right: 0;
+            bottom: -30px;
+          }
+        }
+      }
+
+      .ant-btn {
+        width: 100%;
+        height: 50px;
+        background: #1E69C5;
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+    }
+
+
+
+  }
+
+
+
+}

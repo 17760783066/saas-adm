@@ -1,0 +1,50 @@
+.modal-scroll-500 .top {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.modal-scroll-500 .top .summary {
+  flex: 1;
+}
+
+.modal-scroll-500 .top .summary .line {
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+}
+
+.modal-scroll-500 .top .summary .line a {
+  float: right;
+}
+
+.modal-scroll-500 .top .summary .line label {
+  width: 85px;
+  position: relative;
+  display: inline-block;
+  text-align: justify;
+  -moz-text-align-last: justify;
+  text-align-last: justify;
+  padding-right: 10px;
+}
+
+.modal-scroll-500 .top .summary .line label::after {
+  content: "\FF1A";
+  position: absolute;
+  right: -4px;
+}
+
+.modal-scroll-500 .inner {
+  height: 500px;
+  overflow: scroll;
+  width: 100%;
+}
+
+.modal-scroll-500 .inner .state .warning {
+  color: #f89406;
+}
+
+.modal-scroll-500 .inner .state .important {
+  color: #ff0000;
+}
